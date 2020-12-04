@@ -12,12 +12,12 @@ def main(argv):
         opts, args = getopt.getopt(argv, "hn:p:o:", ["hostname=", "port=", "outputdirectory="])
     except getopt.GetoptError:
         print
-        'fakeSmtpAzure.py -n <hostname> -p <port> -o <outputdirectory>'
+        'main.py -n <hostname> -p <port> -o <outputdirectory>'
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
             print
-            'fakeSmtpAzure.py -n <hostname> -p <port> -o <outputdirectory>'
+            'main.py -n <hostname> -p <port> -o <outputdirectory>'
             sys.exit()
         elif opt in ("-n", "--hostname"):
             hostname = arg
