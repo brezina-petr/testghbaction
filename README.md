@@ -9,4 +9,4 @@ Running:
 main.py -n <hostname> -p <port> -o <outputdirectory>
 
 Example:
-main.py -n 127.0.0.1 -p 2555 -o ./receivedemails/
+main.py -n 0.0.0.0 -p 2555 -o ./receivedemails/
